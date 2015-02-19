@@ -1,5 +1,6 @@
 body {
 	width: 100%;
+	font-family: Calibri;
 }
 
 #container {
@@ -8,17 +9,51 @@ body {
 }
 
 #logo {
-	background-color: gray;
+	background-color: #F8F8F8 ;
+	height: 75px;
+	width: 100%;
+}
+ #logo img {
+ 	display: inline-block;
+ }
+
+ .phonenumber {
+	display: inline-block;
+    text-align: right;
+    line-height: 70px;
+	font-weight: bold;
+	width: 600px;
+	margin-bottom: 0;
+	vertical-align: top;
+}
+
+#menu {
+	background-color: #E8E8E8 ;
 	display: block;
 	height: 75px;
 }
-#menu{
-	background-color: gray;
-	display: block;
-	height: 75px;
+#menu ul {
+	list-style: none;
+	margin-top: 0px;
+}
+
+#menu li {
+	display: inline;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-right: 1px solid gray;
+	line-height: 40px;
+}
+
+#menu a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #808080;
+	font-weight: bold;
 }
 #content {
 	background-color: black;
 	display: block;
 	height: 800px
 }
+
