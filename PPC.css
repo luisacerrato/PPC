@@ -1,0 +1,24 @@
+body {
+	width: 100%;
+}
+
+#container {
+	width: 970px;
+	margin: 0 auto;
+}
+
+#logo {
+	background-color: gray;
+	display: block;
+	height: 75px;
+}
+#menu{
+	background-color: gray;
+	display: block;
+	height: 75px;
+}
+#content {
+	background-color: black;
+	display: block;
+	height: 800px
+}
