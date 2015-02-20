@@ -62,3 +62,44 @@ body {
 	height: 800px
 }
 
+.mainpic {
+	display: inline-block;
+}
+
+.maincontent {
+	display: inline-block;
+}
+
+
+.lesscontent {
+	background: gray;
+	width: 55%;
+	margin-left: 0;
+	display: inline-block;
+	vertical-align: top;
+	height: 255px;
+}
+
+.maintext {
+	background-color: yellow;
+	color: black;
+	display: inline-block;
+	vertical-align: top;
+	margin:0;
+	width: 100%;
+}
+
+.title {
+	color: white;
+	display: inline-block;
+	margin: 10px;
+}
+
+.lesstext {
+	color:white;
+	font-size: 13px;
+}
+
+span {
+	font-weight: bold;
+}
